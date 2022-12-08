@@ -12,6 +12,7 @@ const config = {
   baseUrl: "/sptechblogs/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
+  trailingSlash: true,
   favicon: "img/logonav.png",
 
   // GitHub pages deployment config.
