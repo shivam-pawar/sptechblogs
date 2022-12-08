@@ -8,8 +8,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "SPTechBlogs",
   tagline: "Shivam Pawar's Blog",
-  url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  url: "https://shivam-pawar.github.io",
+  baseUrl: "/sptechblogs/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/logonav.png",
