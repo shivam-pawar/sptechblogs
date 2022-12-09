@@ -121,8 +121,11 @@
     align-items: center;
     flex-direction: row;
   }
+  .leftContainer_h1>img{
+    margin-left: -20px;
+  }
   .leftContainer_h1>h2{
     margin-top: -100px;
-    margin-left: 38px;
+    margin-left: 10px;
   } 
 }
