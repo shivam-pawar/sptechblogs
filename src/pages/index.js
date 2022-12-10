@@ -42,7 +42,8 @@ export default function Home() {
           src="https://www.googletagmanager.com/gtag/js?id=G-J12Q30FK82"
         ></script>
         <script>
-          window.dataLayer = window.dataLayer || []; function gtag()
+          window.dataLayer = window.dataLayer || []; window.dataLayer =
+          window.dataLayer || []; function gtag()
           {dataLayer.push(arguments)}
           gtag('js', new Date()); gtag('config', 'G-J12Q30FK82');
         </script>
