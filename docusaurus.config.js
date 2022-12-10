@@ -48,6 +48,14 @@ const config = {
           priority: 0.9,
           filename: "sitemap.xml",
         },
+        googleAnalytics: {
+          trackingID: "G-J12Q30FK82",
+          anonymizeIP: true,
+        },
+        gtag: {
+          trackingID: "G-J12Q30FK82",
+          anonymizeIP: true,
+        },
       }),
     ],
   ],
