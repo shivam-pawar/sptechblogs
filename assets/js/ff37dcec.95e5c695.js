@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksptechblogs=self.webpackChunksptechblogs||[]).push([[4879],{6096:s=>{s.exports=JSON.parse('{"permalink":"/sptechblogs/blog/tags/react-js","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
