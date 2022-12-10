@@ -9,15 +9,8 @@ import Logo from "../../static/img/logonav.png";
 import styles from "./index.module.css";
 
 function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <div className={styles.myHeroContainer}>
-      <Head>
-        <meta
-          name="google-site-verification"
-          content="GSzYIGKuf_zxvjfMsq4PdOnZvl9vG7gyDCqy8KSIYeE"
-        />
-      </Head>
       <div className={styles.leftContainer}>
         <h1 className={styles.leftContainer_h1}>
           <img src={Logo} alt="Logo" />
@@ -37,11 +30,14 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
-    >
+    <Layout title={`${siteConfig.title}`} description="Because Code is Poetry">
       <HomepageHeader />
+      <Head>
+        <meta
+          name="google-site-verification"
+          content="GSzYIGKuf_zxvjfMsq4PdOnZvl9vG7gyDCqy8KSIYeE"
+        />
+      </Head>
     </Layout>
   );
 }
