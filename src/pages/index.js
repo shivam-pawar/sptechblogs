@@ -37,16 +37,6 @@ export default function Home() {
           name="google-site-verification"
           content="GSzYIGKuf_zxvjfMsq4PdOnZvl9vG7gyDCqy8KSIYeE"
         />
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-J12Q30FK82"
-        ></script>
-        <script>
-          window.dataLayer = window.dataLayer || []; window.dataLayer =
-          window.dataLayer || []; function gtag()
-          {dataLayer.push(arguments)}
-          gtag('js', new Date()); gtag('config', 'G-J12Q30FK82');
-        </script>
       </Head>
     </Layout>
   );

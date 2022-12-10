@@ -20,6 +20,16 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
+  scripts: [
+    {
+      src: "/js/loadtags.js",
+      async: false,
+    },
+    {
+      src: "https://www.googletagmanager.com/gtag/js?id=G-J12Q30FK82",
+      async: true,
+    },
+  ],
 
   presets: [
     [
