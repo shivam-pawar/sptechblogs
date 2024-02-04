@@ -49,11 +49,11 @@ const config = {
           filename: "sitemap.xml",
         },
         googleAnalytics: {
-          trackingID: "G-J12Q30FK82",
+          trackingID: "G-CCPEFZV5Q8",
           anonymizeIP: true,
         },
         gtag: {
-          trackingID: "G-J12Q30FK82",
+          trackingID: "G-CCPEFZV5Q8",
           anonymizeIP: true,
         },
       }),
