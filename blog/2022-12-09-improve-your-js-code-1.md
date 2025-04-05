@@ -1,6 +1,7 @@
 ---
 slug: improve-your-js-code-part-1
 title: Improve your JavaScript Code Part - 1
+description: Learn how to improve your JavaScript code by avoiding bulky and nested if-else statements, using alternative techniques for better readability and performance.
 authors: shivam-pawar
 tags: [JavaScript, tricks, alternative, programming]
 ---

@@ -37,6 +37,32 @@ export default function Home() {
           name="google-site-verification"
           content="GSzYIGKuf_zxvjfMsq4PdOnZvl9vG7gyDCqy8KSIYeE"
         />
+        <meta property="og:title" content="SPTechBlogs - Shivam Pawar's Blog" />
+        <meta
+          property="og:description"
+          content="A blog about React, JavaScript, and programming tips."
+        />
+        <meta
+          property="og:image"
+          content="https://shivam-pawar.github.io/sptechblogs/img/logonav.png"
+        />
+        <meta
+          property="og:url"
+          content="https://shivam-pawar.github.io/sptechblogs/"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Blog",
+            name: "SPTechBlogs",
+            url: "https://shivam-pawar.github.io/sptechblogs/",
+            author: {
+              "@type": "Person",
+              name: "Shivam Pawar",
+            },
+          })}
+        </script>
       </Head>
     </Layout>
   );

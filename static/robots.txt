@@ -1,2 +1,3 @@
 User-agent: *
-Disallow:
+Allow: /
+Sitemap: https://shivam-pawar.github.io/sptechblogs/sitemap.xml

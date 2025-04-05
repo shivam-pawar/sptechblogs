@@ -1,6 +1,7 @@
 ---
 slug: setup-react-app-babel-webpack
 title: Setup Webpack And Babel for a React JS Application
+description: Learn how to set up Webpack and Babel for a React JS application with step-by-step instructions.
 authors: shivam-pawar
 tags: [JavaScript, webpack, reactjs, babel, programming]
 ---

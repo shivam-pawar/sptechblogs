@@ -1,6 +1,7 @@
 ---
 slug: replaceAll-in-javascript
 title: FIX - replaceAll() is not a Function In JavaScript
+description: Learn how to fix the "replaceAll() is not a function" error in JavaScript by understanding its cause and implementing a workaround using the replace() method.
 authors: shivam-pawar
 tags: [JavaScript, node, alternative, programming]
 ---

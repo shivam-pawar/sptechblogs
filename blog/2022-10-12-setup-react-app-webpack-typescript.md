@@ -1,6 +1,7 @@
 ---
 slug: setup-react-app-webpack-typescript
 title: Setup React Application using Typescript and Webpack
+description: Learn how to configure TypeScript in a React application with Webpack and Babel for better type safety and development efficiency.
 authors: shivam-pawar
 tags: [React.js, typescript, webpack, javascript, programming]
 ---
