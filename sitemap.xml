@@ -6,7 +6,6 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
 <url>
   <loc>https://shivam-pawar.github.io/sptechblogs/</loc>
   <lastmod>2022-12-10T15:22:13+00:00</lastmod>
@@ -112,6 +111,5 @@
   <lastmod>2022-12-10T15:22:13+00:00</lastmod>
   <priority>0.51</priority>
 </url>
-
 
 </urlset>
