@@ -22,7 +22,7 @@ const config = {
   },
   scripts: [
     {
-      src: "/js/loadtags.js",
+      src: "/sptechblogs/js/loadtags.js",
       async: false,
     },
     {
