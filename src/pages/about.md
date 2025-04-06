@@ -46,10 +46,19 @@ I’ve hands on in all stages of the programming cycle, from planning to design 
 *   [Python for Data Science and AI](https://www.credly.com/badges/42ecc868-4ec4-41d5-affc-4137107bea2d?source=linked_in_profile)
 *   [Data Visualization with Plotly Express](https://www.coursera.org/account/accomplishments/verify/6AXMSKRR48W8)
   
-<object data="../docs/awards.pdf" type="application/pdf" width="100%" height="700px">
-  <iframe src="../docs/awards.pdf" width="100%" height="700px">
-    <p>This browser does not support PDFs. Please download the PDF to view it:
-    <a href="../docs/awards.pdf">Download PDF</a>.</p>
-  </iframe>
-</object>
+
+### Gallery
+🏆 Bridge Builder Award
+![Bridge Builder Award](../../static/img/bridgebuilderaward.png "Bridge Builder Award")
+
+🏆 Excellence Award
+![Excellence Award](../../static/img/excellence_award_oct_24.png "Excellence Award")
+
+🏆 Spot Award June 23
+![Spot Award June 23](../../static/img/spot_award_june_23.png "Spot Award June 23")
+
+🏆 Spot Award Jan 23
+![Spot Award Jan 23](../../static/img/spot_award_jan_23.png "Spot Award Jan 23")
+
+
 
