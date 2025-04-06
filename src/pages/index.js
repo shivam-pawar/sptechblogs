@@ -72,6 +72,27 @@ export default function Home() {
               "@type": "Person",
               name: "Shivam Pawar",
             },
+            description:
+              "Insights, tutorials, and more from Shivam Pawar's tech world.",
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": "https://shivam-pawar.github.io/sptechblogs/",
+            },
+            logo: {
+              "@type": "ImageObject",
+              url: "https://shivam-pawar.github.io/sptechblogs/img/logonav.png",
+            },
+            image: {
+              "@type": "ImageObject",
+              url: "https://shivam-pawar.github.io/sptechblogs/img/logonav.png",
+            },
+            potentialAction: {
+              "@type": "ReadAction",
+              target: [
+                "https://shivam-pawar.github.io/sptechblogs/",
+                "https://shivam-pawar.github.io/sptechblogs/blog",
+              ],
+            },
           })}
         </script>
       </Head>
