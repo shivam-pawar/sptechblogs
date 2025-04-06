@@ -209,7 +209,7 @@ You’ve now published your first React app to Azure without using GitHub! Keep 
 
 > If you found this article useful, please share it with your friends and colleagues!❤️
 
-Read more articles on Dev.To ➡️ [Shivam Pawar]()
+Read more articles on ➡️ [Dev.To](https://dev.to/shivampawar)
 
 Follow me on ⤵️
 
