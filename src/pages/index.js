@@ -42,7 +42,7 @@ export default function Home() {
           property="og:description"
           content="Insights, tutorials, and more from Shivam Pawar's tech world."
         />
-        <meta name="author" content="Shivam Pawar"></meta>
+        <meta name="author" content="Shivam Pawar" />
         <meta
           name="image"
           property="og:image"
