@@ -10,7 +10,12 @@ A skilled, competent, and diligent individual, specializing in the modern web de
 
 I’ve hands on in all stages of the programming cycle, from planning to design and deployment. No two days are the same for me; my tasks may involve analyzing algorithms, altering code, fixing bugs, brainstorming ideas or integrating new systems.
 
-###### ✅ Problem Solving &nbsp&nbsp  🌐 Search A Lot &nbsp&nbsp 💡 Creative Idea &nbsp&nbsp ✌️ High Quality
+###### ✅ Problem Solving 
+###### 🌐 Search A Lot
+
+###### 💡 Creative Idea
+
+###### ✌️ High Quality
 
 
 ### Technology Stack
@@ -40,7 +45,11 @@ I’ve hands on in all stages of the programming cycle, from planning to design 
 *   [ASP.NET MVC 5 Essential Training](https://www.linkedin.com/learning/asp-dot-net-mvc-5-essential-training-4) 
 *   [Python for Data Science and AI](https://www.credly.com/badges/42ecc868-4ec4-41d5-affc-4137107bea2d?source=linked_in_profile)
 *   [Data Visualization with Plotly Express](https://www.coursera.org/account/accomplishments/verify/6AXMSKRR48W8)
-
-### Awards
-<embed src="../docs/awards.pdf" type="application/pdf" width="100%" height="700px" />
+  
+<object data="../docs/awards.pdf" type="application/pdf" width="100%" height="700px">
+  <iframe src="../docs/awards.pdf" width="100%" height="700px">
+    <p>This browser does not support PDFs. Please download the PDF to view it:
+    <a href="../docs/awards.pdf">Download PDF</a>.</p>
+  </iframe>
+</object>
 
