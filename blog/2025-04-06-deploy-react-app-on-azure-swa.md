@@ -217,9 +217,11 @@ Follow me on ⤵️
   <a href="https://dev.to/shivampawar">
     <img src="https://skillicons.dev/icons?i=devto" />
   </a>
+  &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/shivam-prakash-pawar">
     <img src="https://skillicons.dev/icons?i=linkedin" />
   </a>
+  &nbsp;&nbsp;
   <a href="https://github.com/shivam-pawar">
     <img src="https://skillicons.dev/icons?i=github" />
   </a>
