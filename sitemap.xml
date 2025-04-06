@@ -5,111 +5,159 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 <url>
   <loc>https://shivam-pawar.github.io/sptechblogs/</loc>
-  <lastmod>2022-12-10T15:22:13+00:00</lastmod>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://shivam-pawar.github.io/sptechblogs/about/</loc>
-  <lastmod>2022-12-10T15:22:13+00:00</lastmod>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shivam-pawar.github.io/sptechblogs/blog/</loc>
-  <lastmod>2022-12-10T15:22:13+00:00</lastmod>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shivam-pawar.github.io/sptechblogs/contact/</loc>
-  <lastmod>2022-12-10T15:22:13+00:00</lastmod>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shivam-pawar.github.io/sptechblogs/privacypolicy/</loc>
-  <lastmod>2022-12-10T15:22:13+00:00</lastmod>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://shivam-pawar.github.io/sptechblogs/blog/publish-react-app-to-azure-static-web-app-using-azure-devops/</loc>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
   <loc>https://shivam-pawar.github.io/sptechblogs/blog/improve-your-js-code-part-1/</loc>
-  <lastmod>2022-12-10T15:22:13+00:00</lastmod>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shivam-pawar.github.io/sptechblogs/blog/setup-react-app-webpack-typescript/</loc>
-  <lastmod>2022-12-10T15:22:13+00:00</lastmod>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shivam-pawar.github.io/sptechblogs/blog/setup-react-app-babel-webpack/</loc>
-  <lastmod>2022-12-10T15:22:13+00:00</lastmod>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shivam-pawar.github.io/sptechblogs/blog/replaceAll-in-javascript/</loc>
-  <lastmod>2022-12-10T15:22:13+00:00</lastmod>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://shivam-pawar.github.io/sptechblogs/blog/tags/react/</loc>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://shivam-pawar.github.io/sptechblogs/blog/tags/vite/</loc>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://shivam-pawar.github.io/sptechblogs/blog/tags/azure/</loc>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://shivam-pawar.github.io/sptechblogs/blog/tags/dev-ops/</loc>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://shivam-pawar.github.io/sptechblogs/blog/tags/static-web-apps/</loc>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://shivam-pawar.github.io/sptechblogs/blog/tags/swa/</loc>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://shivam-pawar.github.io/sptechblogs/blog/tags/ci-cd/</loc>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://shivam-pawar.github.io/sptechblogs/blog/tags/azure-repos/</loc>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://shivam-pawar.github.io/sptechblogs/blog/tags/azure-pipelines/</loc>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shivam-pawar.github.io/sptechblogs/blog/tags/java-script/</loc>
-  <lastmod>2022-12-10T15:22:13+00:00</lastmod>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shivam-pawar.github.io/sptechblogs/blog/tags/tricks/</loc>
-  <lastmod>2022-12-10T15:22:13+00:00</lastmod>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shivam-pawar.github.io/sptechblogs/blog/tags/alternative/</loc>
-  <lastmod>2022-12-10T15:22:13+00:00</lastmod>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shivam-pawar.github.io/sptechblogs/blog/tags/programming/</loc>
-  <lastmod>2022-12-10T15:22:13+00:00</lastmod>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shivam-pawar.github.io/sptechblogs/blog/tags/react-js/</loc>
-  <lastmod>2022-12-10T15:22:13+00:00</lastmod>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shivam-pawar.github.io/sptechblogs/blog/tags/typescript/</loc>
-  <lastmod>2022-12-10T15:22:13+00:00</lastmod>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shivam-pawar.github.io/sptechblogs/blog/tags/webpack/</loc>
-  <lastmod>2022-12-10T15:22:13+00:00</lastmod>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shivam-pawar.github.io/sptechblogs/blog/tags/javascript/</loc>
-  <lastmod>2022-12-10T15:22:13+00:00</lastmod>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shivam-pawar.github.io/sptechblogs/blog/tags/reactjs/</loc>
-  <lastmod>2022-12-10T15:22:13+00:00</lastmod>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shivam-pawar.github.io/sptechblogs/blog/tags/babel/</loc>
-  <lastmod>2022-12-10T15:22:13+00:00</lastmod>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shivam-pawar.github.io/sptechblogs/blog/tags/node/</loc>
-  <lastmod>2022-12-10T15:22:13+00:00</lastmod>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shivam-pawar.github.io/sptechblogs/blog/tags/</loc>
-  <lastmod>2022-12-10T15:22:13+00:00</lastmod>
+  <lastmod>2025-04-06T07:48:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
-
 </urlset>
