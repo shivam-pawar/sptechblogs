@@ -40,9 +40,11 @@ export default function Home() {
         <meta property="og:title" content="SPTechBlogs - Shivam Pawar's Blog" />
         <meta
           property="og:description"
-          content="A blog about React, JavaScript, and programming tips."
+          content="Insights, tutorials, and more from Shivam Pawar's tech world."
         />
+        <meta name="author" content="Shivam Pawar"></meta>
         <meta
+          name="image"
           property="og:image"
           content="https://shivam-pawar.github.io/sptechblogs/img/logonav.png"
         />
@@ -51,6 +53,15 @@ export default function Home() {
           content="https://shivam-pawar.github.io/sptechblogs/"
         />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="SP Tech Blogs" />
+        <meta
+          name="twitter:description"
+          content="Insights, tutorials, and more from Shivam Pawar's tech world."
+        />
+        <meta
+          name="twitter:image"
+          content="https://shivam-pawar.github.io/sptechblogs/img/logonav.png"
+        />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
