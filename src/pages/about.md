@@ -6,21 +6,30 @@ tags: [about]
 ---
 ### I'm here to help your next project
 
-A skilled, competent, and diligent individual, specializing in the modern web development (React js - Redux) and Machine Learning algorithms. For the last 3 years, I have been developing applications using JavaScript, C# and Python programming languages.
+A skilled, competent, and diligent individual, specializing in the modern web development (React js - Redux) and Machine Learning algorithms. For the last 6 years, I have been developing applications using JavaScript, C# and Python programming languages.
 
 I’ve hands on in all stages of the programming cycle, from planning to design and deployment. No two days are the same for me; my tasks may involve analyzing algorithms, altering code, fixing bugs, brainstorming ideas or integrating new systems.
 
-###### ✅ Problem Solving 
-###### 🌐 Search A Lot
-
-###### 💡 Creative Idea
-
-###### ✌️ High Quality
+###### ✅ Problem Solving &nbsp&nbsp  🌐 Search A Lot &nbsp&nbsp 💡 Creative Idea &nbsp&nbsp ✌️ High Quality
 
 
 ### Technology Stack
 
-![CSS3](https://camo.githubusercontent.com/e6b67b27998fca3bccf4c0ee479fc8f9de09d91f389cccfbe6cb1e29c10cfbd7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f637373332d2532333135373242362e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d63737333266c6f676f436f6c6f723d7768697465)&nbsp;![JavaScript](https://camo.githubusercontent.com/aeddc848275a1ffce386dc81c04541654ca07b2c43bbb8ad251085c962672aea/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a6176617363726970742d2532333332333333302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d253233463744463145)&nbsp;![HTML5](https://camo.githubusercontent.com/49fbb99f92674cc6825349b154b65aaf4064aec465d61e8e1f9fb99da3d922a1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f68746d6c352d2532334533344632362e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465)&nbsp;![Azure](https://camo.githubusercontent.com/bdceff7844d6316ebd4afb3ef39502a89bc897b84819844c7dafb867e44d07ec/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f617a7572652d2532333030373243362e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d617a7572652d6465766f7073266c6f676f436f6c6f723d7768697465)&nbsp;![React](https://camo.githubusercontent.com/ab4c3c731a174a63df861f7b118d6c8a6c52040a021a552628db877bd518fe84/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656163742d2532333230323332612e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d7265616374266c6f676f436f6c6f723d253233363144414642)&nbsp;![Redux](https://camo.githubusercontent.com/9a7c7ebbabb2096c0ad0cac6f64bc9fe93f4954a3ae3f51d6f3e076ba462aab1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656475782d2532333539336438382e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d7265647578266c6f676f436f6c6f723d7768697465)&nbsp;![NodeJS](https://camo.githubusercontent.com/7d7b100e379663ee40a20989e6c61737e6396c1dafc3a7c6d2ada8d4447eb0e4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6e6f64652e6a732d3644413535463f7374796c653d666f722d7468652d6261646765266c6f676f3d6e6f64652e6a73266c6f676f436f6c6f723d7768697465)&nbsp;![Webpack](https://camo.githubusercontent.com/cfb221c05f485331b66bcf123878fc7de981faffc16fe430ff53bb1ad4f41aad/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7765627061636b2d2532333844443646392e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d7765627061636b266c6f676f436f6c6f723d626c61636b)&nbsp;![MUI](https://camo.githubusercontent.com/836760b91cce6812f7c5a0a87e9c3cc74210006474a8b47ae18d958941e5a938/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d55492d2532333030383143422e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6d6174657269616c2d7569266c6f676f436f6c6f723d7768697465)&nbsp;![Docker](https://camo.githubusercontent.com/6b7f701cf0bea42833751b754688f1a27b6090fdf90bf2b226addff01be817f0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646f636b65722d2532333064623765642e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d646f636b6572266c6f676f436f6c6f723d7768697465)&nbsp;![Kubernetes](https://camo.githubusercontent.com/922a5d8888929fc17acaaf995fe42f50788f30a5b58f45b03c6bafc9e4b5791f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6b756265726e657465732d2532333332366365352e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6b756265726e65746573266c6f676f436f6c6f723d7768697465)&nbsp;![Terraform](https://camo.githubusercontent.com/79c115f5f7c3c6cd19b8ec09c8e139b061e891a05046cde5d7b9dcd0532d3485/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7465727261666f726d2d2532333538333543432e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d7465727261666f726d266c6f676f436f6c6f723d7768697465)&nbsp;![Angular](https://camo.githubusercontent.com/0461c95b6c3716b16477ee709148006546bf849be66ef1e4fa373d2119dff412/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f616e67756c61722d2532334444303033312e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d616e67756c6172266c6f676f436f6c6f723d7768697465)&nbsp;![MicrosoftSQLServer](https://camo.githubusercontent.com/84fa7f6c26f4067f74daaf973dfd43b2547111617349ce2256ed3c42df2b7722/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6963726f736f667425323053514c25323053657665722d4343323932373f7374796c653d666f722d7468652d6261646765266c6f676f3d6d6963726f736f667425323073716c253230736572766572266c6f676f436f6c6f723d7768697465)&nbsp;![SASS](https://camo.githubusercontent.com/aa2d67d682b7d59cb0955695b192fc1390c9da34e90aa0c63079c411d01a9c66/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f534153532d686f7470696e6b2e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d53415353266c6f676f436f6c6f723d7768697465)&nbsp;![.Net](https://camo.githubusercontent.com/f36a579a7440dd2cd03da4903249f86d0d44cb7020fd902512bccd139784b363/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2e4e45542d3543324439313f7374796c653d666f722d7468652d6261646765266c6f676f3d2e6e6574266c6f676f436f6c6f723d7768697465)
+#### **Frontend Development**
+[![Frontend Skills](https://skillicons.dev/icons?i=js,ts,html,css,react,redux,angular,mui,tailwind,bootstrap,sass)](https://skillicons.dev)
+
+#### **Backend Development**
+[![Backend Skills](https://skillicons.dev/icons?i=nodejs,python,fastapi,dotnet)](https://skillicons.dev)
+
+#### **DevOps & Cloud**
+[![DevOps Skills](https://skillicons.dev/icons?i=azure,docker,kubernetes,terraform)](https://skillicons.dev)
+
+#### **Build Tools**
+[![Build Tools](https://skillicons.dev/icons?i=npm,webpack,babel)](https://skillicons.dev)
+
+#### **Database**
+[![Database Skills](https://skillicons.dev/icons?i=mysql,firebase,sqlite,mongodb)](https://skillicons.dev)
+
 
 ### Certifications
 
@@ -31,3 +40,7 @@ I’ve hands on in all stages of the programming cycle, from planning to design 
 *   [ASP.NET MVC 5 Essential Training](https://www.linkedin.com/learning/asp-dot-net-mvc-5-essential-training-4) 
 *   [Python for Data Science and AI](https://www.credly.com/badges/42ecc868-4ec4-41d5-affc-4137107bea2d?source=linked_in_profile)
 *   [Data Visualization with Plotly Express](https://www.coursera.org/account/accomplishments/verify/6AXMSKRR48W8)
+
+### Awards
+<embed src="../docs/awards.pdf" type="application/pdf" width="100%" height="700px" />
+
