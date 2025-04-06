@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksptechblogs=self.webpackChunksptechblogs||[]).push([[7512],{5287:e=>{e.exports=JSON.parse('{"permalink":"/sptechblogs/blog/tags/azure-pipelines","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
