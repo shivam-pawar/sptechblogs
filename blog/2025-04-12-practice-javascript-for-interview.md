@@ -8,6 +8,12 @@ tags: [javascript, interview-prep, coding]
 
 # Practice JavaScript for Interview
 
+JavaScript is one of the most popular programming languages, widely used for web development, server-side scripting, and even mobile app development. Preparing for JavaScript-related interview questions can help you strengthen your understanding of core concepts and improve your problem-solving skills.
+
+In this guide, we will cover essential JavaScript topics and provide examples to help you practice effectively.
+
+<!--truncate-->
+
 ## Basic Concepts
 <details>
   <summary>1. What is JavaScript?</summary>
