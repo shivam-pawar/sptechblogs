@@ -1,7 +1,7 @@
 ---
 slug: practice-javascript-for-interview
 title: Practice JavaScript for Interview
-description: A comprehensive guide to practicing JavaScript concepts and techniques for coding interviews.
+description: A comprehensive guide to practicing JavaScript concepts, techniques, and problem-solving strategies for coding interviews. This guide is designed to help developers strengthen their understanding of JavaScript fundamentals, advanced topics, and common interview patterns.
 authors: shivam-pawar
 tags: [javascript, interview-prep, coding]
 ---
