@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksptechblogs=self.webpackChunksptechblogs||[]).push([[9439],{3418:s=>{s.exports=JSON.parse('{"label":"React.js","permalink":"/sptechblogs/blog/tags/react-js","allTagsPath":"/sptechblogs/blog/tags","count":1}')}}]);

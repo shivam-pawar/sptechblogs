@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksptechblogs=self.webpackChunksptechblogs||[]).push([[3922],{3209:s=>{s.exports=JSON.parse('{"label":"CI/CD","permalink":"/sptechblogs/blog/tags/ci-cd","allTagsPath":"/sptechblogs/blog/tags","count":1}')}}]);

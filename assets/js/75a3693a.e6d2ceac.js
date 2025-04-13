@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksptechblogs=self.webpackChunksptechblogs||[]).push([[3927],{2894:s=>{s.exports=JSON.parse('{"permalink":"/sptechblogs/blog/tags/programming","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksptechblogs=self.webpackChunksptechblogs||[]).push([[9529],{1915:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/sptechblogs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":6,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

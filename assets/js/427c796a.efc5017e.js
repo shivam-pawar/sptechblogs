@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksptechblogs=self.webpackChunksptechblogs||[]).push([[1788],{8700:s=>{s.exports=JSON.parse('{"label":"webpack","permalink":"/sptechblogs/blog/tags/webpack","allTagsPath":"/sptechblogs/blog/tags","count":2}')}}]);

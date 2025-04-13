@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksptechblogs=self.webpackChunksptechblogs||[]).push([[9200],{158:s=>{s.exports=JSON.parse('{"label":"Azure","permalink":"/sptechblogs/blog/tags/azure","allTagsPath":"/sptechblogs/blog/tags","count":1}')}}]);
