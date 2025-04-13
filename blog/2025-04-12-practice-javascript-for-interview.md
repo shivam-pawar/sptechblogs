@@ -266,10 +266,258 @@ console.log({} instanceof Object); // Output: true
   ```
 
   **Key Differences**  
-  - Use function declarations for reusable named functions.
-  - Use function expressions or arrow functions for inline or callback functions.
-  - Use IIFE for code that needs to run immediately.
-  - Use constructor functions or classes for object creation.
-  - Use generator functions for managing asynchronous or iterative processes.
+  - Use function declarations for reusable named functions.  
+  - Use function expressions or arrow functions for inline or callback functions.  
+  - Use IIFE for code that needs to run immediately.  
+  - Use constructor functions or classes for object creation.  
+  - Use generator functions for managing asynchronous or iterative processes.  
+
+</details>
+<details>
+  <summary>What are different types of loops?</summary>
+
+  JavaScript provides several types of loops to iterate over data or execute a block of code multiple times:
+
+  **1. `for` Loop**  
+  Used when the number of iterations is known beforehand.
+  ```javascript
+  for (let i = 0; i < 5; i++) {
+    console.log(i); // Output: 0, 1, 2, 3, 4
+  }
+  ```
+
+  **2. `while` Loop**  
+  Executes as long as the condition is `true`. Use when the number of iterations is not known.
+  ```javascript
+  let i = 0;
+  while (i < 5) {
+    console.log(i); // Output: 0, 1, 2, 3, 4
+    i++;
+  }
+  ```
+
+  **3. `do...while` Loop**  
+  Executes the block at least once before checking the condition.
+  ```javascript
+  let i = 0;
+  do {
+    console.log(i); // Output: 0, 1, 2, 3, 4
+    i++;
+  } while (i < 5);
+  ```
+
+  **4. `for...in` Loop**  
+  Iterates over the enumerable properties of an object.
+  ```javascript
+  const obj = { a: 1, b: 2, c: 3 };
+  for (let key in obj) {
+    console.log(key, obj[key]); // Output: a 1, b 2, c 3
+  }
+  ```
+
+  **5. `for...of` Loop**  
+  Iterates over iterable objects like arrays, strings, or sets.
+  ```javascript
+  const arr = [10, 20, 30];
+  for (let value of arr) {
+    console.log(value); // Output: 10, 20, 30
+  }
+  ```
+
+  **6. `break` and `continue` Statements**  
+  - `break`: Exits the loop immediately.
+  - `continue`: Skips the current iteration and moves to the next one.
+  ```javascript
+  for (let i = 0; i < 5; i++) {
+    if (i === 3) break; // Stops the loop when i is 3
+    console.log(i); // Output: 0, 1, 2
+  }
+
+  for (let i = 0; i < 5; i++) {
+    if (i === 3) continue; // Skips the iteration when i is 3
+    console.log(i); // Output: 0, 1, 2, 4
+  }
+  ```
+
+  **Key Differences**  
+  - Use `for` when the number of iterations is known.  
+  - Use `while` or `do...while` when the number of iterations is unknown.  
+  - Use `for...in` for objects and `for...of` for arrays or other iterables.
+
 </details>
 
+<details>
+  <summary>Common array methods?</summary>
+
+  JavaScript provides a variety of methods to work with arrays. Here are some commonly used ones:
+
+  **1. `push()`**  
+  Adds one or more elements to the end of an array and returns the new length of the array.  
+  ```javascript
+  const arr = [1, 2, 3];
+  arr.push(4);
+  console.log(arr); // Output: [1, 2, 3, 4]
+  ```
+
+  **2. `pop()`**  
+  Removes the last element from an array and returns it.  
+  ```javascript
+  const arr = [1, 2, 3];
+  const last = arr.pop();
+  console.log(last); // Output: 3
+  console.log(arr); // Output: [1, 2]
+  ```
+
+  **3. `shift()`**  
+  Removes the first element from an array and returns it.  
+  ```javascript
+  const arr = [1, 2, 3];
+  const first = arr.shift();
+  console.log(first); // Output: 1
+  console.log(arr); // Output: [2, 3]
+  ```
+
+  **4. `unshift()`**  
+  Adds one or more elements to the beginning of an array and returns the new length of the array.  
+  ```javascript
+  const arr = [2, 3];
+  arr.unshift(1);
+  console.log(arr); // Output: [1, 2, 3]
+  ```
+
+  **5. `slice()`**  
+  Returns a shallow copy of a portion of an array into a new array.  
+  ```javascript
+  const arr = [1, 2, 3, 4];
+  const sliced = arr.slice(1, 3);
+  console.log(sliced); // Output: [2, 3]
+  ```
+
+  **6. `splice()`**  
+  Adds, removes, or replaces elements in an array.  
+
+  **Syntax**  
+  ```javascript
+  array.splice(start, deleteCount, item1, item2, ...);
+  ```  
+
+  `start`: Index at which to start changing the array.  
+  `deleteCount`: Number of elements to remove.  
+  `item1, item2, ...`: Elements to add (optional).  
+
+  **Example**  
+  ```javascript
+  const arr = [1, 2, 3, 4];
+  arr.splice(1, 2, "a", "b");
+  console.log(arr); // Output: [1, "a", "b", 4]
+  ```
+  In this example, 2 elements starting from index 1 are removed, and "a" and "b" are added in their place.  
+  
+  **7. `concat()`**  
+  Merges two or more arrays into a new array.  
+  ```javascript
+  const arr1 = [1, 2];
+  const arr2 = [3, 4];
+  const merged = arr1.concat(arr2);
+  console.log(merged); // Output: [1, 2, 3, 4]
+  ```
+
+  **8. `indexOf()`**  
+  Returns the first index of a specified element, or `-1` if not found.  
+  ```javascript
+  const arr = [1, 2, 3];
+  console.log(arr.indexOf(2)); // Output: 1
+  ```
+
+  **9. `includes()`**  
+  Checks if an array contains a specified element.  
+  ```javascript
+  const arr = [1, 2, 3];
+  console.log(arr.includes(2)); // Output: true
+  ```
+
+  **10. `forEach()`**  
+  Executes a provided function once for each array element.  
+  ```javascript
+  const arr = [1, 2, 3];
+  arr.forEach((num) => console.log(num)); // Output: 1, 2, 3
+  ```
+
+  **11. `map()`**  
+  Creates a new array by applying a function to each element.  
+  ```javascript
+  const arr = [1, 2, 3];
+  const doubled = arr.map((num) => num * 2);
+  console.log(doubled); // Output: [2, 4, 6]
+  ```
+
+  **12. `filter()`**  
+  Creates a new array with elements that pass a test.  
+  ```javascript
+  const arr = [1, 2, 3, 4];
+  const even = arr.filter((num) => num % 2 === 0);
+  console.log(even); // Output: [2, 4]
+  ```
+
+  **13. `reduce()`**  
+  Reduces an array to a single value by applying a function.  
+  ```javascript
+  const arr = [1, 2, 3, 4];
+  const sum = arr.reduce((acc, num) => acc + num, 0);
+  console.log(sum); // Output: 10
+  ```
+
+  **14. `find()`**  
+  Returns the first element that satisfies a condition.  
+  ```javascript
+  const arr = [1, 2, 3, 4];
+  const found = arr.find((num) => num > 2);
+  console.log(found); // Output: 3
+  ```
+
+  **15. `findIndex()`**  
+  Returns the index of the first element that satisfies a condition.  
+  ```javascript
+  const arr = [1, 2, 3, 4];
+  const index = arr.findIndex((num) => num > 2);
+  console.log(index); // Output: 2
+  ```
+
+  **16. `sort()`**  
+  Sorts the elements of an array in place.  
+  ```javascript
+  const arr = [3, 1, 4, 2];
+  arr.sort();
+  console.log(arr); // Output: [1, 2, 3, 4]
+  ```
+
+  **17. `reverse()`**  
+  Reverses the order of elements in an array.  
+  ```javascript
+  const arr = [1, 2, 3];
+  arr.reverse();
+  console.log(arr); // Output: [3, 2, 1]
+  ```
+
+  **18. `join()`**  
+  Joins all elements of an array into a string.  
+  ```javascript
+  const arr = [1, 2, 3];
+  const str = arr.join("-");
+  console.log(str); // Output: "1-2-3"
+  ```
+
+  **19. `split()`**  
+  Although not an array method, `split()` is often used with strings to create arrays.  
+  ```javascript
+  const str = "1,2,3";
+  const arr = str.split(",");
+  console.log(arr); // Output: ["1", "2", "3"]
+  ```
+
+  **Key Differences**  
+  - Use `map()`, `filter()`, and `reduce()` for functional programming.    
+  - Use `push()` and `pop()` for stack-like behavior.    
+  - Use `sort()` and `reverse()` for ordering elements.
+    
+</details>
