@@ -526,62 +526,62 @@ console.log({} instanceof Object); // Output: true
 
 Cloning an object in JavaScript can be done in several ways, depending on the depth of the clone required (shallow or deep).
 
-### 1. **Shallow Clone**
-A shallow clone creates a new object, but nested objects or arrays are still referenced.
+1. **Shallow Clone**  
 
-**Using `Object.assign()`**
-```javascript
-const obj = { a: 1, b: { c: 2 } };
-const shallowClone = Object.assign({}, obj);
-console.log(shallowClone); // Output: { a: 1, b: { c: 2 } }
-```
+   A shallow clone creates a new object, but nested objects or arrays are still referenced.
 
-**Using Spread Operator (`...`)**
-```javascript
-const obj = { a: 1, b: { c: 2 } };
-const shallowClone = { ...obj };
-console.log(shallowClone); // Output: { a: 1, b: { c: 2 } }
-```
+   **Using `Object.assign()`**
+   ```javascript
+   const obj = { a: 1, b: { c: 2 } };
+   const shallowClone = Object.assign({}, obj);
+   console.log(shallowClone); // Output: { a: 1, b: { c: 2 } }
+   ```
 
-### 2. **Deep Clone**
-A deep clone creates a completely independent copy, including nested objects or arrays.
+   **Using Spread Operator (`...`)**
+   ```javascript
+   const obj = { a: 1, b: { c: 2 } };
+   const shallowClone = { ...obj };
+   console.log(shallowClone); // Output: { a: 1, b: { c: 2 } }
+   ```  
+2. **Deep Clone**  
+   
+   A deep clone creates a completely independent copy, including nested objects or arrays.
 
-**Using `JSON.parse()` and `JSON.stringify()`**
-```javascript
-const obj = { a: 1, b: { c: 2 } };
-const deepClone = JSON.parse(JSON.stringify(obj));
-console.log(deepClone); // Output: { a: 1, b: { c: 2 } }
-```
-*Limitations*: This method does not handle functions, `undefined`, `Symbol`, or circular references.
+   **Using `JSON.parse()` and `JSON.stringify()`**
+   ```javascript
+   const obj = { a: 1, b: { c: 2 } };
+   const deepClone = JSON.parse(JSON.stringify(obj));
+   console.log(deepClone); // Output: { a: 1, b: { c: 2 } }
+   ```
+   *Limitations*: This method does not handle functions, `undefined`, `Symbol`, or circular references.
 
-**Using a Library (e.g., Lodash)**
-```javascript
-const _ = require('lodash');
-const obj = { a: 1, b: { c: 2 } };
-const deepClone = _.cloneDeep(obj);
-console.log(deepClone); // Output: { a: 1, b: { c: 2 } }
-```
+   **Using a Library (e.g., Lodash)**
+   ```javascript
+   const _ = require('lodash');
+   const obj = { a: 1, b: { c: 2 } };
+   const deepClone = _.cloneDeep(obj);
+   console.log(deepClone); // Output: { a: 1, b: { c: 2 } }
+   ```
 
-**Using Recursive Function**
-```javascript
-function deepClone(obj) {
-  if (obj === null || typeof obj !== "object") return obj;
-  const clone = Array.isArray(obj) ? [] : {};
-  for (const key in obj) {
-    if (obj.hasOwnProperty(key)) {
-      clone[key] = deepClone(obj[key]);
-    }
-  }
-  return clone;
-}
+   **Using Recursive Function**
+   ```javascript
+   function deepClone(obj) {
+     if (obj === null || typeof obj !== "object") return obj;
+     const clone = Array.isArray(obj) ? [] : {};
+     for (const key in obj) {
+       if (obj.hasOwnProperty(key)) {
+         clone[key] = deepClone(obj[key]);
+       }
+     }
+     return clone;
+   }
 
-const obj = { a: 1, b: { c: 2 } };
-const deepClone = deepClone(obj);
-console.log(deepClone); // Output: { a: 1, b: { c: 2 } }
-```
-
-### Key Differences
-- Use shallow cloning (`Object.assign` or spread operator) for simple objects without nested structures.
-- Use deep cloning (`JSON.parse`, libraries, or custom functions) for complex objects with nested structures.
+   const obj = { a: 1, b: { c: 2 } };
+   const deepClone = deepClone(obj);
+   console.log(deepClone); // Output: { a: 1, b: { c: 2 } }
+   ```  
+  **Key Differences**
+  - Use shallow cloning (`Object.assign` or spread operator) for simple objects without nested structures.
+  - Use deep cloning (`JSON.parse`, libraries, or custom functions) for complex objects with nested structures.
 
 </details>
