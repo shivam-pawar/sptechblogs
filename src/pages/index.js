@@ -46,7 +46,7 @@ export default function Home() {
         <meta
           name="image"
           property="og:image"
-          content="https://shivam-pawar.github.io/sptechblogs/img/logonav.png"
+          content="https://shivam-pawar.github.io/sptechblogs/img/og_image_resized.png"
         />
         <meta
           property="og:url"
