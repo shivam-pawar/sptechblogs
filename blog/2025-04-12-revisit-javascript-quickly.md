@@ -3,6 +3,7 @@ slug: revisit-javascript-quickly
 title: Revisit JavaScript Quickly
 description: A comprehensive guide to revisiting essential JavaScript concepts, complete with examples and explanations.
 authors: shivam-pawar
+author: shivam pawar
 image: img/JavaScript-logo.png
 tags: [javascript, interview-prep, coding, web-development, programming-basics, es6, data-structures]
 ---
