@@ -1,17 +1,15 @@
 ---
-slug: practice-javascript-for-interview
-title: Practice JavaScript for Interview
-description: A comprehensive guide to practicing JavaScript concepts, techniques, and problem-solving strategies for coding interviews. This guide is designed to help developers strengthen their understanding of JavaScript fundamentals, advanced topics, and common interview patterns.
+slug: revisit-javascript-quickly
+title: Revisit JavaScript Quickly
+description: A comprehensive guide to revisiting essential JavaScript concepts, complete with examples and explanations.
 authors: shivam-pawar
 image: ../static/img/JavaScript-logo.png
-tags: [javascript, interview-prep, coding]
+tags: [javascript, interview-prep, coding, web-development, programming-basics, es6, data-structures]
 ---
 
-# Practice JavaScript for Interview
+# Revisit JavaScript Quickly
 
-JavaScript is one of the most popular programming languages, widely used for web development, server-side scripting, and even mobile app development. Preparing for JavaScript-related interview questions can help you strengthen your understanding of core concepts and improve your problem-solving skills.
-
-In this guide, we will cover essential JavaScript topics and provide examples to help you practice effectively.
+A comprehensive guide to revisiting essential JavaScript concepts, complete with examples and explanations. This guide is designed to help you strengthen your understanding of JavaScript, whether you're preparing for interviews or simply brushing up on your skills. By exploring key topics and practical examples, you'll gain the confidence to tackle JavaScript challenges effectively.
 
 <!--truncate-->
 
@@ -401,9 +399,10 @@ console.log({} instanceof Object); // Output: true
   array.splice(start, deleteCount, item1, item2, ...);
   ```  
 
-  `start`: Index at which to start changing the array.  
-  `deleteCount`: Number of elements to remove.  
-  `item1, item2, ...`: Elements to add (optional).  
+  - `start`: Index at which to start changing the array.  
+  - `deleteCount`: Number of elements to remove.  
+  - `item1, item2, ...`: Elements to add (optional).
+    
 
   **Example**  
   ```javascript
@@ -520,4 +519,69 @@ console.log({} instanceof Object); // Output: true
   - Use `push()` and `pop()` for stack-like behavior.    
   - Use `sort()` and `reverse()` for ordering elements.
     
+</details>
+
+<details>
+<summary>How to clone an object?</summary>
+
+Cloning an object in JavaScript can be done in several ways, depending on the depth of the clone required (shallow or deep).
+
+### 1. **Shallow Clone**
+A shallow clone creates a new object, but nested objects or arrays are still referenced.
+
+**Using `Object.assign()`**
+```javascript
+const obj = { a: 1, b: { c: 2 } };
+const shallowClone = Object.assign({}, obj);
+console.log(shallowClone); // Output: { a: 1, b: { c: 2 } }
+```
+
+**Using Spread Operator (`...`)**
+```javascript
+const obj = { a: 1, b: { c: 2 } };
+const shallowClone = { ...obj };
+console.log(shallowClone); // Output: { a: 1, b: { c: 2 } }
+```
+
+### 2. **Deep Clone**
+A deep clone creates a completely independent copy, including nested objects or arrays.
+
+**Using `JSON.parse()` and `JSON.stringify()`**
+```javascript
+const obj = { a: 1, b: { c: 2 } };
+const deepClone = JSON.parse(JSON.stringify(obj));
+console.log(deepClone); // Output: { a: 1, b: { c: 2 } }
+```
+*Limitations*: This method does not handle functions, `undefined`, `Symbol`, or circular references.
+
+**Using a Library (e.g., Lodash)**
+```javascript
+const _ = require('lodash');
+const obj = { a: 1, b: { c: 2 } };
+const deepClone = _.cloneDeep(obj);
+console.log(deepClone); // Output: { a: 1, b: { c: 2 } }
+```
+
+**Using Recursive Function**
+```javascript
+function deepClone(obj) {
+  if (obj === null || typeof obj !== "object") return obj;
+  const clone = Array.isArray(obj) ? [] : {};
+  for (const key in obj) {
+    if (obj.hasOwnProperty(key)) {
+      clone[key] = deepClone(obj[key]);
+    }
+  }
+  return clone;
+}
+
+const obj = { a: 1, b: { c: 2 } };
+const deepClone = deepClone(obj);
+console.log(deepClone); // Output: { a: 1, b: { c: 2 } }
+```
+
+### Key Differences
+- Use shallow cloning (`Object.assign` or spread operator) for simple objects without nested structures.
+- Use deep cloning (`JSON.parse`, libraries, or custom functions) for complex objects with nested structures.
+
 </details>
